@@ -1,3 +1,5 @@
+// neste arquivo vai ficar: mudancas de cor de imagem e de texto na pagina e colocaçao da musica ambiente
+
 const html = document.querySelector('html'); // constsnte que vai pegar a tag html da pagina 
 const focoBt = document.querySelector('.app__card-button--foco');  // constante que vai pegar o botao de foco do html
 const curtoBt = document.querySelector('.app__card-button--curto'); // constante que vai pegar o bota de descnaso curto do html
