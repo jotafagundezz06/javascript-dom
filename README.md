@@ -1,6 +1,6 @@
 # Fokus - Pomodoro Timer
 
-![Fokus Logo](logo.png)
+![Fokus Logo](https://javascript-dom-three.vercel.app/imagens/logo.png)
 
 Este é o repositório do projeto Fokus, desenvolvido como parte do curso "JavaScript - Manipulando o DOM" da Alura. O Fokus é um aplicativo web baseado no método Pomodoro, projetado para ajudar você a gerenciar seu tempo com eficiência e melhorar a produtividade.
 
@@ -23,4 +23,4 @@ Este é o repositório do projeto Fokus, desenvolvido como parte do curso "JavaS
 1. Clone este repositório em sua máquina local:
 
 ```bash
-git clone https://github.com/seu-usuario/fokus.git
+https://github.com/jotafagundezz06/javascript-dom.git
