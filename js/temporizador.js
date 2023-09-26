@@ -10,7 +10,7 @@ const IniciarouPausarbt = document.querySelector('#start-pause span'); // variav
 
 const contagemRegressiva = () => { // funçao que vai fazer a contagem regreciva 
     if (tempoDecorridoEmSegundos <= 0){ // se o tempor for menor ou igual a 0
-        //somFim.play(); // vai tocar a musica de fim 
+        somFim.play(); // vai tocar a musica de fim 
         alert('Tempo FInalizado'); // avisa que o tempo acabou
         zerar() // chama a funçao de zerar o cronometro
         return;
