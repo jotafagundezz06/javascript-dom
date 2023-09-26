@@ -19,20 +19,24 @@ musicaFocoInput.addEventListener('change',function () { // evento de ligar a mus
         }
 })
 
-focoBt.addEventListener('click', () => { // vai criar um evento de click no botao de foco 
+focoBt.addEventListener('click', () => { // vai criar um evento de click no botao de foco
+    tempoDecorridoEmSegundos = 1500; // tempo do cronometro no foco 
     alterarContexto('foco') // pega a classe de foco
     focoBt.classList.add('active'); // ativa o desenho de ativado do botao 
 })
 curtoBt.addEventListener('click', () => { // vai criar um evento de click no botao de foco curto
+    tempoDecorridoEmSegundos = 300 ; // tempo do cronometro no descanso curto 
     alterarContexto('descanso-curto') // pega a classe de descanso curto
     curtoBt.classList.add('active'); // ativa o desenho de ativado do botao 
 })
 longoBt.addEventListener('click', () => { // vai criar um evento de click no botao de foco longo
+    tempoDecorridoEmSegundos = 600 ; // tempo do cronometro no descanso longo 
     alterarContexto('descanso-longo') // pega a classe de descanso longo
     longoBt.classList.add('active'); // ativa o desenho de ativado do botao
 })
 
 function alterarContexto (contexto){ // funçao que vai alguerar a cor e a iamgem da pagina
+    mostraNaTela() // mostra o cronometro
     butom.forEach(function(contexto){
     contexto.classList.remove('active') // vai remover de acordo com o contexto
     });
